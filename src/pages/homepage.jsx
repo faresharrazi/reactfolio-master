@@ -15,7 +15,6 @@ import SEO from "../data/seo";
 import "./styles/homepage.css";
 
 const Homepage = () => {
-	const [stayLogo, setStayLogo] = useState(false);
 	const [logoSize, setLogoSize] = useState(80);
 	const [oldLogoSize, setOldLogoSize] = useState(80);
 
@@ -33,13 +32,10 @@ const Homepage = () => {
 				if (newLogoSize > 40) {
 					setLogoSize(newLogoSize);
 					setOldLogoSize(newLogoSize);
-					setStayLogo(false);
 				} else {
-					setStayLogo(true);
 				}
 			} else {
 				setLogoSize(newLogoSize);
-				setStayLogo(false);
 			}
 		};
 
