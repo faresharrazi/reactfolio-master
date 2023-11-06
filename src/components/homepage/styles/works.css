@@ -36,6 +36,8 @@
 
 .work-duration {
 	position: absolute;
+	padding-left: 5vh;
+	margin-top: -3vh;
 	width: 350px;
 	font-size: 12px;
 	padding-top: 20px;

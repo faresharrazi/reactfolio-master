@@ -20,11 +20,11 @@ const Works = ({ type }) => {
 								className="work-image"
 							/>
 							<div className="work-title">Microsoft</div>
-							<div className="work-subtitle">
-								Teams B2B Support Engineer
-							</div>
 							<div className="work-duration">
 								Jan 2023 - Present
+							</div>
+							<div className="work-subtitle">
+								Teams B2B Support Engineer
 							</div>
 						</div>
 
@@ -34,12 +34,13 @@ const Works = ({ type }) => {
 								alt="dropbox"
 								className="work-image"
 							/>
-							<div className="work-title">Dropbox</div>
-							<div className="work-subtitle">
-								Team manager & Escalation Support Engineer
-							</div>
 							<div className="work-duration">
 								Jan 2017 - Jan 2023
+							</div>
+							<div className="work-title">Dropbox</div>
+
+							<div className="work-subtitle">
+								Team manager & Escalation Support Engineer
 							</div>
 						</div>
 
