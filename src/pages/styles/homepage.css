@@ -10,6 +10,7 @@
 .homepage-container {
 	display: flex;
 	flex-direction: column;
+
 	height: 100%;
 	margin: 0;
 	padding-top: 120px;
@@ -19,12 +20,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	text-align: center;
 }
 
 .homepage-first-area-left-side {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .homepage-title {
@@ -57,7 +59,7 @@
 
 .homepage-socials {
 	display: flex;
-	justify-content: left;
+	justify-content: center;
 	align-items: center;
 	padding-top: 30px;
 }
